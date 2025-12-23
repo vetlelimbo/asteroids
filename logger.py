@@ -132,7 +132,9 @@ def log_event(event_type, **details):
     with open("game_events.jsonl", mode) as f:
         f.write(json.dumps(event) + "\n")
 
-    _event_log_initialized = Trueimport inspect
+    _event_log_initialized = True 
+
+import inspect
 import json
 import math
 from datetime import datetime
